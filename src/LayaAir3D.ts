@@ -30,8 +30,8 @@ class Shader_Terrain {
             var customMaterial: CustomTerrainMaterial = new CustomTerrainMaterial();
             customMaterial.splatAlphaTexture = Laya.Texture2D.load("res/threeDimen/scene/terrain/terrain/splatalpha 0.png");
             customMaterial.lightMapTexture = Laya.Texture2D.load("res/threeDimen/scene/terrain/Assets/Scenes/Level/XunLongShi/Lightmap-0_comp_light.png");
-            customMaterial.diffuseTexture1 = Laya.Texture2D.load("threeDimen/scene/terrain/terrain/ground_01.jpg");
-            customMaterial.diffuseTexture2 = Laya.Texture2D.load("threeDimen/scene/terrain/terrain/ground_02.jpg");
+            customMaterial.diffuseTexture1 = Laya.Texture2D.load("res/threeDimen/scene/terrain/terrain/ground_01.jpg");
+            customMaterial.diffuseTexture2 = Laya.Texture2D.load("res/threeDimen/scene/terrain/terrain/ground_02.jpg");
             customMaterial.diffuseTexture3 = Laya.Texture2D.load("res/threeDimen/scene/terrain/terrain/ground_03.jpg");
             customMaterial.diffuseTexture4 = Laya.Texture2D.load("res/threeDimen/scene/terrain/terrain/ground_04.jpg");
             customMaterial.setDiffuseScale1(new Laya.Vector2(27.92727, 27.92727));

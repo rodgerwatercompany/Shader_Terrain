@@ -1,6 +1,6 @@
 
 class CustomTerrainMaterial extends Laya.BaseMaterial {
-    
+
     public static SPLATALPHATEXTURE: number = 0;
     public static NORMALTEXTURE: number = 1;
     public static LIGHTMAPTEXTURE: number = 2;
@@ -26,7 +26,9 @@ class CustomTerrainMaterial extends Laya.BaseMaterial {
     public static SHADERDEFINE_DETAIL_NUM4: number;
     public static SHADERDEFINE_DETAIL_NUM5: number;
     public static SHADERDEFINE_LIGHTMAP: number;
+    
     constructor() {
+        
         super();
         this.setShaderName("CustomTerrainShader");
     }
